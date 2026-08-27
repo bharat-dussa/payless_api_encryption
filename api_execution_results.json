@@ -1,0 +1,285 @@
+[
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerBalance",
+    "plainPayload": {
+      "memberId": "testalpha1@gmail.com"
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "byNXSnDNYchfGYq/jKE8b0V1PvW1b6Jjm8qBiIFKYOaIdlxYziMX6WcIalvvIbgDpTJKhNVa7vNyn/3MQzhlwUqH405LJhJgwA1BA26fUE8yGqotyee7UX8bc5d7dswlVfgF5oz/eLgQ8GGXMVaDLFEgWhzW8RThDMb4RfYog+BLV/QFvGW3pEE++ZaOneV1N4fv74F9td9cQt19hPZvdha1DM/73eWKGcuahc6UC41F/J9uY0TqO449YznzSvHb5hlrzJhVB/pXCHn/c0s/DHtns/155BtL+g4x8sYYzbb7RroCcd6O2ALZUjnlojZ1gqsE3kHlhGLdwHUFCT+7qA==",
+      "encryptedPayload": "txsE5e+2U51Yb6ZqkOpR2bNByNVNIrVxXsQtprKo1EkYbe8LkmVmUXYTJqb5T7rm6JkY",
+      "keyVersion": "1.0",
+      "iv": "fuHBcvPrCOdeMYDVrr3Dhw==",
+      "timestamp": "1787594179086"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerValidation",
+    "plainPayload": {
+      "amt": "1",
+      "cn": "9997457557",
+      "op": "338",
+      "cir": "22",
+      "planCode": "Vi-UP-WEST-Uttarakhand-121-made-for-you-Rs-1.0",
+      "adParams": {}
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "OJ7qH6TSo3i2UGE1FVUhQBQhDSnPqarcXuu9vrliTBuS/zIFJDrmxDs8Cf7clhKz/0s0KVjw14GbniAQ9SIT2AkwDIwdjXSCFCqO/ZwqsBXarrC6dk05ctqKA0ZWsTpg48dB/SzJMZqoPySbM7v93232IOb4On+xN0B7jpX36pVkLXR3IGxT3yK6/L953hj5BWIOt8KRGTMbPxAMkdypPfNkN/6rA4JsDL90Tc2TzG5ujYrNS+a+8ZzXx0cayWcLhy9M7zw9dbl7PKqeWDVFEgbTa9s5tb5WROY7NeRUd2k38zQe1nG34BdpnNuDFlCDpHYBVInX3Qt1/wrHYjgfeQ==",
+      "encryptedPayload": "LjQGGjDOn+yyZH2sol3MUnM2ZThTbL5pIdp8r/a90cLDqmkofFr0W2lIbIiTaEDPwH3q+ZXhnRvtamZ+V5mybISVm2qFnkPSdH/6vMvy5MdhC0fCYauVizg4gewijl0BJHh0IFGeo+8Gn7/M1SWIp/tNqX1m9/ZwKG9uYz0xpBbwVumqZT8sAXMnEXzh",
+      "keyVersion": "1.0",
+      "iv": "MhGhA7wmtf9pUV7ICLHRqQ==",
+      "timestamp": "1787594179125"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerValidation",
+    "plainPayload": {
+      "cn": "9876543210",
+      "op": "7",
+      "cir": "",
+      "amt": "10",
+      "reqid": "1772278452624302713",
+      "remitterName": "UAT Tester",
+      "paymentRefID": "1772278452624302713",
+      "paymentMode": "UPI",
+      "paymentAccountInfo": "uat@okaxis"
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "gHpJ9BhHLIxaw2C4PX+R8qPerRugankGOVo39BSjqCBi8A9QnRcMqI/fW6tDEWtqSwjriffwsk0PqLMkjNGZUkDBwMUa53yl7YDqnYkfpQSsZktjyaglLOJqkBHjW9M4/PWoMRkYmEkjvjMCtE6DTzzhFlzA52LxrrhQMQMNTuv8VW8ZLg0CyZKxhwDrRW7Q3wH5fy+LVQdKQJv2KrVCnaamnwLt4EIIrxrVEinrfpaa8wtGtjDIxjCnl2T3DAjOlCGGB1LRId74OEKdimtctnd1bx3G+rCCvS5lJaiNF1uDka17iQUWWvP9o1a7gh+8qS0j1Y/bdrV3EoHC5/8gvg==",
+      "encryptedPayload": "ro+RracVTNqlqkIxWitVFS31QB/bs2+6EPTFIGrfqKv0IqKeGQ6WKErdBczWWtX8c0HaDFP3AyH//Qiuj3jWMu1IPpiAHQyou/haGId7QW7a1jrKvQ9I/zWvtk89c1VePZy8gdITHC3gMemvl8eON6eCum+7xCNzECO/H1iEKP0S/NssZCBE/aUxjoj7hmLyYR0zgonKyCsjzHSy4uw3CjQR8CsAf7bnoCI5tHp/gaq5IjEhYWvsE5BVnOthG+ni8X/2AAQCtVcfTph+x5JYoy7/ms2P",
+      "keyVersion": "1.0",
+      "iv": "RBZxNBmdXsz4zN7yxL7crA==",
+      "timestamp": "1787594179156"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerViewbill",
+    "plainPayload": {
+      "cn": "80003948751",
+      "op": "249",
+      "cir": "1",
+      "adParams": {}
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "iL/J/RQ7OObgcZWso5dKiQJbr3tE2K+/c0qrjPsxxQJVhSo6pz0wtjhX0C1KuQr27YABo6WD1/gSDnlaVn8ixhFWdUcecdsLJTtOXakExcPxwSuQl4NNfN5nuBxbFAEULImn4vQkqu+AG2FO7vFirqxVC3zUs/J3Q+zIwnR6QgDxdclEFOF4wh3sTenmZao2tMSvL2vh/5SfcHCc7JsPeJeFoFivOK9wGefWgdmdTUB1ciwkIh5Ec+hdNrJHbMDX9UfFvbt+LQI2xhUZqDBLlYW94HCKL2rHa1GwYpfdoL11M3rYhTA/z6vyVZO6H1Cm+jcpnM+tAoUjBKKgZ7mBfQ==",
+      "encryptedPayload": "/TK9nHZY+Y6SvlXsJjGcvDXMFPm2qbgWQx+xbzPgVT16Z/AfsKQ9o9hyTcnJLsh76TJs4ir2tT9lb6/DG5Rzjw7C92bhdDE=",
+      "keyVersion": "1.0",
+      "iv": "BfV7Wxx3JIvHhZiKpV/hOw==",
+      "timestamp": "1787594179190"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerViewbill",
+    "plainPayload": {
+      "cn": "211",
+      "op": "432423",
+      "cir": "2",
+      "adParams": {}
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "LSWt+Vz0ndmIf0yT4zvFVwENj+I7kzNet4x1c5mCcSMN2cVFA4s6Sle3TvuIfwHGNJmxQkpJC2YRDI6Yk/OxPaFL1QerqoJ7AB1ivEdJ01aouU3krNJ5GCPD3F09OI0xI2TSM6d9xBa0GEG8gVGjzt0NYe0lsrlXxEfj3kvcdjqwciLL3FUSlad0VgUL0WgYfdyvVtIPRy13QXe8n1czqt4JoTmwiLJsPBwSc5PolsfGkbyeYrudRawqZZoaNz7FK5npNiIuzsH6MsalDz32JMLRCCGYhXse6r4vYCDud35AuPdOiPZiNAyno6ac2FgaWRmwywZZr/EN9yx+y/XRPg==",
+      "encryptedPayload": "sTvXraa3lGBPdY8YVXo0Nq76QEFvKJKb4HxdFqjR4ubbnrUbIZkyo6HnsOIDWN/xREPhF1uPHjGN0ps5WVRQ2Gco",
+      "keyVersion": "1.0",
+      "iv": "DJcH0k1/CkWHu0iF3QiV2A==",
+      "timestamp": "1787594179219"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerPayment",
+    "plainPayload": {
+      "cn": "9876543210",
+      "op": "7",
+      "cir": "",
+      "amt": "10",
+      "reqid": "1772278452624302713",
+      "remitterName": "UAT Tester",
+      "paymentRefID": "1772278452624302713",
+      "paymentMode": "UPI",
+      "paymentAccountInfo": "uat@okaxis"
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "N76jhgCVe4pL/gVYdzkfy7uuHRlMXyAkL8d4iYCfO+tPiv8MpUWA9ccnaJ2Tf4eMs3WQsfSk7DnhGuwf1vhsLDMQsehbrY9qXB02TYkniCUDRaab8w4I6V6195vx2mDpOtJy9z8+AmBxBRDD4W0brnQrIFvRuVlibXhmaSaQH/TTLwLVHh3uPEr8MGmqJS8RoGCLO6fL5b+VKrWjnfx4+ieqcvhnKl5N7I+L314tStpBkCdR+eYtH330j3Zxng6Ocbz2lwQxiq+Vt2IgZ+6VPepmB3NKUOWb1UlDvaSvk6Li3jkDLCBIq+M0lDzTUg8SdY4/tUebOtjKVvtJZCBBXg==",
+      "encryptedPayload": "J8bJe0TtQifMoaIwG4XeJ4wSPB8JrOFufjDDhlkWs/vmuXPC3Q20dc2Vu9cDRWdxtl+2f+EmlHJwoC8QPXj2dRVqy0HukZJsul+FQ2hOexcBMbjUisT1i32OMsyceFEx9fgc03fkL6chI1u7RxHv/mh9iGt/2Cv3Qrw86nl3kZ0ShRxfMd1Z3/VFYsKjiOIIIOVm4yXoIiGzQ4AvhaATUVA9ZcTWEHLP+ofSj1x+Qm1GEIflOxt8Q8v/Fo6Gwzxrom72OsrSLqj8pQLVUW++M0VWorDh",
+      "keyVersion": "1.0",
+      "iv": "HyA3RlWIBJVNKmkvpyGagg==",
+      "timestamp": "1787594179240"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerPayment",
+    "plainPayload": {
+      "cn": "121",
+      "op": "1",
+      "cir": "",
+      "amt": "10",
+      "reqid": "tessjdk103111787594179085",
+      "remitterName": "dsada",
+      "paymentRefID": "tessjdk103111787594179085",
+      "paymentMode": "asd",
+      "paymentAccountInfo": "sad@ybl"
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "GEHogOD3cE4Pdy/dC/havHN8dZobsdxqun7y4PcxykFWAnrXg5Pbc//1a2fsk/BCrMjn9xt6z/P26NV4qjt+YoLBsrv2cn3AYpIQRmcnavwXqOHYCuQHDIv5OslhFfqGdzfZejVE/S4Ho1nmKytcFClbkXXOK8SfkSmR2l4qRYoPXLjkQOwBgcWdItXOqq1YhDlmUX7c1cMd4m4W6N7xCSceH5qHRzbFGitgxevVSMKfPXf/phmLXTEmxdl5JZJrG8w4FAim3YA3//HwcjL4+bqj6/Sve2nu51/LJXa/Vgh1vbP6j2lfgnXWeG/OBzYUmNgxipBHS4mxmUC9M3YCjg==",
+      "encryptedPayload": "2FRD08yd4npYA/xhMowea5LH27pY01WPv4je9DZA2CGxNdjwZOIcv61irBZvRrCs/SsRBhr7X/OFwpZvTcVPghp6uVrWLliJJUfwj3uQPzrg0TgBiXMJPGoGhTH02xGqcP7Voimfd4zCvIwlfiQSlzF+s8IKY6WAfudDL43c0bE1N/MwruKma4lc7M49Y2tLedAMC+L2EbY8BqUcoK9NNoLmOrYryU04cuSSFSKYfBnpyhRsnvzxot2Cn380NpRNCz2FlxFkhYZbnDrlkNTx31hx",
+      "keyVersion": "1.0",
+      "iv": "7/7Og0WzgQe9arWPO6TMhw==",
+      "timestamp": "1787594179266"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerStatus",
+    "plainPayload": {
+      "txId": "tessjdk1031787594179085"
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "cjQXPLnNRU4CjRUnaqURyXkKGWj3EL32hPpv4p6GW6tBZTtRurJC6lOiaX/2lK7QbuSJt/RWvUhEDbn8gEUsl2sPyig4RKlSPvpQc/OrfHILYL7gy/eud5lUcxqP+LW9RLBRZ+SlAJ+nbua5VDe9DHi3hAbHQ7zUMjEmVDIF6PHH+ZyCHW2e4gAz4Rz7S66WRQw47gNeDWFeXsTJLiqSYtryRomiTW1wIJl6/4hJHHtSm9fiLwhjPb3jAFAQMGOx7kvcFQZW/v0zyGNXEvcWfGpA8/Jv3istMymHaxv9Qq/+h6OTy1KLhONaWcFCQxAEXQ5PkVyRuOXNWqLS6+i10Q==",
+      "encryptedPayload": "biYXKcDaKUxzCVextBvwKebm2v22L4ANHxk/tzPMl9w4c4bmiZWNgkzjUocYHPa2O7A=",
+      "keyVersion": "1.0",
+      "iv": "sGrC1p5XGY8FFCZZOEfSEw==",
+      "timestamp": "1787594179297"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerStatus",
+    "plainPayload": {
+      "txId": "tessjdk103111787594179085"
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "LPse38eVVgHtlZACTri7od+qZvSrBuzYYg4SmP0/UoVdUI1K5lUQODNojqG238uka1LGnCLSnisR+kMV7W4QeIzQlKgdT2DeacohyRJlKpMCwfhzNITsepJimfDS8UCjNwAVJ9/Ro4VBORP6FI2byLW6We44extannnHC8UruqGP5pSRb7G86zNrKoAjkPEoJw0OnhId4uwa4025g8Cia9k7h3eR2NwFsbQotlXZONlNs97HFPzAkiuKjXnBY08i7NQXRMA/AuUUTSz8gu69ob4m0JJyXNvfa6l8FWKzocVHJmcMEZ5SQLxTjSJPuSTft5LsktSVnjur9I4evZ0yJQ==",
+      "encryptedPayload": "K0R+66jqzRDvfI5HRLLx5QFqJ4ozOGe/XIuSD/WgSZzOjV81v3XZpg1Lmr3DPsy5fz0Rfg==",
+      "keyVersion": "1.0",
+      "iv": "HH5hWvrBgpjrdoxbeRVamA==",
+      "timestamp": "1787594179350"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerCCBill",
+    "plainPayload": {
+      "last4": "4357",
+      "mobile": "7865789567",
+      "agentId": "MK01HFUIQ532563526",
+      "bankCode": "AXIS"
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "XcLLmoBEyb3/S3F1AsX1x00Brvl/fEdbAMxWPUTzexPllbVc+wCuusjeQOJztl19qdeBOIwkTXSFEhSzwXKq3TPbAdNmAS3BdDA1mP+wC+FfE9E7kRObYqEuRwz8bzQkajD1N1GBmcK5cpqsbVhfX2ThV118Dds4AgLVh3iDTXbEoy+PmY7aDQyRnkrSNxuHZY1agJQ+95cfEJc6IoKtNy0vbGiyYxTNbLpwP0c4tM5Ufk/qg+k7ABFX/WWUzmLy3g5yXWKVnubuxD/0qjRBnktnQ8QmTFPcvXKAqj32Q9hFxiCOzviYWBH9KORboNBSqzAYWQv/3RTWoYjHuxIE7g==",
+      "encryptedPayload": "Blm7eHph9tRwR/cMbuHposODbVGXWJaDfxroJv6dCVbmxrcG/X7jM+tempRORDy0MVxUSDyBjVx6B+uIaKydskR/ssW9EDe7VRzEE/sg9/agdPYqC8Vnzcr/am7BSqO4AAhARpbS5Q==",
+      "keyVersion": "1.0",
+      "iv": "frnlzhfJwtg6QVSVtbj4EA==",
+      "timestamp": "1787594179373"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  },
+  {
+    "success": true,
+    "endpoint": "/recharge/v3/retailerCCBill",
+    "plainPayload": {
+      "last4": "4358",
+      "mobile": "7865789568",
+      "agentId": "MK01HFUIQ532563527",
+      "bankCode": "HDFC"
+    },
+    "encryptedEnvelope": {
+      "encryptedSessionKey": "DWDM28Qw8YxCDJQKbWLQr3LED2nCqXS9q0WcUcrYOzEL6pzg5QFYJoud7nWtxCRKMygV5STK8fz8Mq10SGEA2eLvlLVaqgC9dgrbsjAEY1ZoS6ish83Zu76b/+p3lqSvXdJ6BT4Juwb/Z5kMytqFYpaSUVpeqbRuW0/ZsFhqvfNKCfRPgnm4i5n36giOChBPm8wzYp6GaOoX4rnkRM+xKRrBxP13VYNDtECRsqxazrLQBtXuRFpOyk28s4UjdLo0MaBXe+8puAdwANk9Wy6fjpnVc8rktHqrQvNHOLGoMWBxMyJUMOXw8LseJkL1ye4v+2jQMtFyxhunpdC30QcZyg==",
+      "encryptedPayload": "YeiwJWNi/aFKFtZOFtIFwSVW5OUoRGMOi6IVqOtrpAQGFCJWRI7cIvoC+Hdy2W7dpzl3TO2J6CV+zgVpsLyHvTM4vZdDUowNoEGvWcX9YKyZtktNyOsdgOkQmGci/cQW0eiPErrRTA==",
+      "keyVersion": "1.0",
+      "iv": "p3EVE1qXYeFGlpQoByfjMw==",
+      "timestamp": "1787594179409"
+    },
+    "status": 200,
+    "responseData": {
+      "success": false,
+      "message": {
+        "code": "401",
+        "text": "Token is expired"
+      }
+    }
+  }
+]
